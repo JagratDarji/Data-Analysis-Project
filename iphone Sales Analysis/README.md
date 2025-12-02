@@ -1,54 +1,66 @@
-📱 iPhone Sales Analysis
+📁 Project Overview
 
-This project analyzes Apple iPhone product data to identify trends in pricing, reviews, and customer ratings.
+This project analyzes iPhone sales performance over multiple years using Python.
+The goal is to explore trends, pricing changes, demand patterns, and identify key insights for business decision-making.
 
----
+🚀 Tech Stack Used
 
-📁 Project Structure
+Python
 
-iPhone-Sales-Analysis/
-├── dataset/
-│ └── apple_products.csv
-├── iphone_sales_analysis.ipynb
-└── README.md
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Jupyter Notebook
+
+📂 Project Structure
+📦 iphone-sales-analysis
+│
+├── 📁 Dataset
+│     └── iphone_sales.csv
+│
+├── 📓 iphone Sales Analysis.ipynb
+└── 📄 README.md
+
+🔍 Key Analysis Performed
+
+✔ Sales trend over months/years
+✔ Price comparison across models
+✔ Correlation between features & sales
+✔ Market share comparison
+✔ Best-selling iPhone models
+✔ Demand forecasting (if included)
+
+📈 Visualizations Included
+
+Line charts
+
+Bar charts
+
+Pie charts
+
+Heatmaps
+
+Trend analysis graphs
+
+🧠 Insights
+
+(Add your 4–6 main findings, example👇)
+
+iPhone 13 had the highest sales in 2023.
+
+Premium models dominate overall revenue.
+
+A clear upward trend is visible in festive seasons.
+
+✅ How to Run
+pip install -r requirements.txt
+jupyter notebook
 
 
----
-
-📊 Dataset Overview
-
-- Fields:
-  - Product (Model name)
-  - Rating
-  - Number of Reviews
-  - Price
-  - Availability
-- Source: Apple product listings
-
----
-🔍 Analysis Includes:
-
-- 📈 Price distribution of Apple iPhones
-- ⭐ Average ratings across different models
-- 💬 Number of reviews per model
-- 🔁 Correlation between Price and Ratings
-
----
-
-📎 Tools Used
-
-- Python 🐍
-- Pandas
-- Matplotlib
-- Seaborn
-
----
-
-💡 Key Insights
-
-- Models with the highest ratings aren't always the most expensive.
-- Review count often correlates with popularity.
-- Most iPhones fall within a price range of ₹50,000–₹90,000.
-
----
-
+Open:
+iphone Sales Analysis.ipynb
